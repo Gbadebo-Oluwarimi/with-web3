@@ -1,0 +1,35 @@
+{
+  "version": "3",
+  "redirects": {
+    "https://ghuc.cc/worker-tools/resolvable-promise/index.ts": "https://raw.githubusercontent.com/worker-tools/resolvable-promise/master/index.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.134.0/fmt/colors.ts": "30455035d6d728394781c10755351742dd731e3db6771b1843f9b9e490104d37",
+    "https://deno.land/std@0.134.0/testing/_diff.ts": "9d849cd6877694152e01775b2d93f9d6b7aef7e24bfe3bfafc4d7a1ac8e9f392",
+    "https://deno.land/std@0.134.0/testing/asserts.ts": "b0ef969032882b1f7eb1c7571e313214baa1485f7b61cf35807b2434e254365c",
+    "https://edge.netlify.com/": "ff84a16f192fdb43db8b9dff869889f555c05857d075044d2a7cfa54c283a0a0",
+    "https://edge.netlify.com/bootstrap/config.ts": "0aa0a225d978b89e0e62cbd853701605199e7a84095e55eeb70147faf1a24803",
+    "https://edge.netlify.com/bootstrap/context.ts": "8f99269eeeeccf9b852e6089cc648c962a0ea20b2198b8b38b38e3b2ce2b9143",
+    "https://edge.netlify.com/bootstrap/cookie.ts": "8b0baae708989ca183c6f3b4ab3d029e6abcbc2e43f93edeb0ff447b3bbc3a05",
+    "https://edge.netlify.com/bootstrap/edge_function.ts": "b8253e86aa83c67341f5cfedeba5049d77fbf84dcab7eceff7566b7728ae9b39",
+    "https://edge.netlify.com/bootstrap/globals.ts": "38f9e0be6c2c78206bf14d2387d41964d38bbe81644b3668e203c6f6473408a7",
+    "https://raw.githubusercontent.com/worker-tools/resolvable-promise/master/index.ts": "67d11f839d8e831074668e29e22c582d0ec0bbfcbf49d639ed33d9baffefed36"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@types/node@^20",
+        "npm:@types/react-dom@^18",
+        "npm:@types/react@^18",
+        "npm:eslint-config-next@14.2.4",
+        "npm:eslint@^8",
+        "npm:next@14.2.4",
+        "npm:postcss@^8",
+        "npm:react-dom@^18",
+        "npm:react@^18",
+        "npm:tailwindcss@^3.4.1",
+        "npm:typescript@^5"
+      ]
+    }
+  }
+}
