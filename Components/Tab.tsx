@@ -5,7 +5,7 @@ const Tab = () => {
     <div className="text-[#dfe5ec] p-4 tab ">
       <div className="rounded-md w-full max-w-7xl m-auto py-5 ">
         <div className="text-2xl font-bold">
-          Today's Cryptocurrency Prices by{" "}
+          Today&apos;s Cryptocurrency Prices by{" "}
           <span className="text-green-400">Market Cap</span>
         </div>
         <div className="text-sm pt-3">
