@@ -1,5 +1,9 @@
 import React from "react";
-
+import btc from "../assets/btc.png";
+import eth from "../assets/eth.png";
+import usdt from "../assets/usdt.png";
+import Rate from "./Table/Rate";
+import CoinNameRow from "./Table/CoinNameRow";
 interface subprop {
   title: string;
 }
@@ -12,18 +16,30 @@ const Subcard: React.FC<subprop> = ({ title }) => {
       </div>
       <div className="  inline-block text-lg  text-[#dfe5ec] w-full ">
         <div className="flex text-sm cursor-pointer font-semibold mb-1 justify-between w-full rounded-lg p-2 hover:bg-[#1c2228]">
-          <div className="text-lg">Bitcoin</div>
-          <div className="text-lg">$0.0004593000</div>
+          <div className="text-sm">
+            <CoinNameRow name="BTC" icon={btc} />
+          </div>
+          <div className="text-sm flex">
+            $0.000459 <Rate isIncrement={true} rate="0.41%" />
+          </div>
         </div>
 
         <div className="flex text-sm cursor-pointer font-semibold mb-1 justify-between w-full rounded-lg p-2 hover:bg-[#1c2228]">
-          <div className="text-lg">Ethereum</div>
-          <div className="text-lg">$0.0004593000</div>
+          <div className="text-sm">
+            <CoinNameRow name="Ethereum" icon={eth} />
+          </div>
+          <div className="text-sm flex">
+            $0.000459 <Rate isIncrement={false} rate="0.21%" />
+          </div>
         </div>
+      </div>
 
-        <div className="flex text-sm cursor-pointer font-semibold justify-between w-full rounded-lg p-2 hover:bg-[#1c2228]">
-          <div className="text-lg">usdt</div>
-          <div className="text-lg">$0.0004593000</div>
+      <div className="flex text-sm cursor-pointer font-semibold justify-between w-full rounded-lg p-2 hover:bg-[#1c2228]">
+        <div className="text-sm">
+          <CoinNameRow name="USDT" icon={usdt} />
+        </div>
+        <div className="text-sm flex">
+          $0.000459 <Rate isIncrement={true} rate="0.11%" />
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ const Table = () => {
 
   return (
     <div className="text-[#dfe5ec] max-w-7xl m-auto py-3 px-3">
-      <div className="text-2xl font-bold">Latest CoinMarket Value</div>
+      <div className="text-2xl font-bold">Latest Coin Value</div>
       <div className="pt-1 text-xs font-light">
         Refresh the page to view updated currency data.
       </div>
@@ -46,10 +46,10 @@ const Table = () => {
                     coinName={coin.name}
                     coinSymbol={coin.symbol}
                     coinIcon={btc}
-                    showBuy={true}
                     hRate={coin.quote.USD.percent_change_24h}
                     dRate={coin.quote.USD.percent_change_7d}
                     hRateIsIncrement={true}
+                    dRateIsIncrement={true}
                     price={coin.quote.USD.price}
                     marketCapValue={coin.quote.USD.market_cap}
                     volumeCryptoValue={coin.quote.USD.volume_24h}

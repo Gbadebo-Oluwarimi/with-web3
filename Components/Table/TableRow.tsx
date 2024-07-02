@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import More from "../../assets/svg/More";
 import Star from "../../assets/svg/Star";
 import CoinNameRow from "./CoinNameRow";
@@ -13,7 +13,7 @@ const styles = {
 interface CMCtableRowProps {
   starNum: number;
   coinName: string;
-  coinIcon?: string;
+  coinIcon?: StaticImageData;
   coinSymbol: string;
   price: number;
   hRate: number;
@@ -82,9 +82,7 @@ const CMCtableRow: React.FC<CMCtableRowProps> = ({
   return (
     <tbody className={styles.tableRow}>
       <tr>
-        <td>
-          <Star />
-        </td>
+        <td></td>
         <td>{starNum}</td>
 
         {coinIcon && (
