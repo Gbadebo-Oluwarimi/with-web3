@@ -61,6 +61,9 @@ const Header = () => {
             Add Project
           </button>
         </div>
+        <div className="p-2 flex items-center pl-10 rounded-xl bg-[#15289668] text-gray-400 text-center">
+          v1.0
+        </div>
       </div>
     </div>
   );
