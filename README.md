@@ -15,8 +15,8 @@ web-3/Crypto API Sources. This web-tool helps to easily track the volatile value
 
 ### APIs Used
 
-- [**Tradingview api**]
-- [**Coinmarket cap**](https://coinmarketcap.com)
+- [**Dex Scanner api**] - used to generate the chart for the various tokens and crypto's
+- [**Coinmarket cap**](https://coinmarketcap.com) - Used to gnerate the latest value of the tokena and crypto
 
 ### Tool and Technologies Used 🔧🧰
 
