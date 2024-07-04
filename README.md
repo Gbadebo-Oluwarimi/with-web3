@@ -11,17 +11,18 @@ web-3/Crypto API Sources. This web-tool helps to easily track the volatile value
 - Add/Create personal Crypto Tokens on the ethereum blockchain using the
   ERC20 Rule
 - Live View Chart of all Cryptocurrencies and Tokens
+
   <img src="./assets//Demo_site2.png" width="600">
 
-### APIs Used
+### APIs Used ⛓️
 
 - [**Dex Scanner api**] - used to generate the chart for the various tokens and crypto's
 - [**Coinmarket cap**](https://coinmarketcap.com) - Used to gnerate the latest value of the tokena and crypto
 
 ### Tool and Technologies Used 🔧🧰
 
-- [Node JS](https//nodejs.org)
-- [NextJS](https//nextjs.com)
+- [Node JS](https://nodejs.org)
+- [NextJS](https://nextjs.com)
 - [TailwindCss](https://tailwindcss.com)
 - [TypeScript](https://typescript.com)
 - [Vercel](https://vercel.com)
